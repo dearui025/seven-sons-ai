@@ -1,0 +1,44 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="luban-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#D97706;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#92400E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆 -->
+  <circle cx="50" cy="50" r="50" fill="url(#luban-bg)"/>
+  
+  <!-- 工匠帽 -->
+  <rect x="35" y="30" width="30" height="15" fill="#8B4513" rx="3"/>
+  <rect x="37" y="32" width="26" height="3" fill="#A16207"/>
+  
+  <!-- 脸部 -->
+  <ellipse cx="50" cy="58" rx="18" ry="20" fill="#FBBF24"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="44" cy="52" r="2" fill="#1F2937"/>
+  <circle cx="56" cy="52" r="2" fill="#1F2937"/>
+  
+  <!-- 专注的眉毛 -->
+  <path d="M40 48 Q44 45 48 47" stroke="#1F2937" stroke-width="1.5" fill="none"/>
+  <path d="M52 47 Q56 45 60 48" stroke="#1F2937" stroke-width="1.5" fill="none"/>
+  
+  <!-- 胡须 -->
+  <path d="M45 68 Q50 70 55 68" stroke="#8B4513" stroke-width="2" fill="none"/>
+  
+  <!-- 工具 - 锯子 -->
+  <g transform="translate(75,60)">
+    <rect x="-1" y="-8" width="2" height="16" fill="#6B7280"/>
+    <path d="M1 -8 L3 -6 L1 -4 L3 -2 L1 0 L3 2 L1 4 L3 6 L1 8" stroke="#6B7280" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- 工具 - 锤子 -->
+  <g transform="translate(25,65)">
+    <rect x="-1" y="-6" width="2" height="12" fill="#8B4513"/>
+    <rect x="-4" y="-8" width="8" height="4" fill="#6B7280"/>
+  </g>
+  
+  <!-- 工匠符号 -->
+  <text x="50" y="88" text-anchor="middle" fill="white" font-size="10" font-family="serif">工</text>
+</svg>
