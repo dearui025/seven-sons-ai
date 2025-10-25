@@ -1,0 +1,28 @@
+<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="50" cy="50" r="50" fill="#4F46E5"/>
+  
+  <!-- 头部 -->
+  <circle cx="50" cy="35" r="15" fill="#FEF3C7"/>
+  
+  <!-- 眼睛 -->
+  <circle cx="45" cy="32" r="2" fill="#1F2937"/>
+  <circle cx="55" cy="32" r="2" fill="#1F2937"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M 45 38 Q 50 42 55 38" stroke="#1F2937" stroke-width="1.5" fill="none"/>
+  
+  <!-- 身体 -->
+  <rect x="40" y="50" width="20" height="25" rx="10" fill="#3B82F6"/>
+  
+  <!-- 手臂 -->
+  <circle cx="35" cy="60" r="5" fill="#FEF3C7"/>
+  <circle cx="65" cy="60" r="5" fill="#FEF3C7"/>
+  
+  <!-- 装饰性元素 - 代表创造力的星星 -->
+  <polygon points="25,20 27,26 33,26 28,30 30,36 25,32 20,36 22,30 17,26 23,26" fill="#FCD34D"/>
+  <polygon points="75,25 76,28 79,28 77,30 78,33 75,31 72,33 73,30 71,28 74,28" fill="#FCD34D"/>
+  
+  <!-- 代表智慧的光环 -->
+  <circle cx="50" cy="35" r="18" stroke="#FCD34D" stroke-width="1" fill="none" opacity="0.6"/>
+</svg>
